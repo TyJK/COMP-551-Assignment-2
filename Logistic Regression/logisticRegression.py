@@ -138,8 +138,8 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.20, random
 
 weights = one_vs_all(X_train, y_train, 0.0001, 0.05)
 print(weights)
-pickle.dump(weights, open("weights2.pkl", 'wb'))
-weights = pickle.load(open("weights.pkl", 'rb'))
+pickle.dump(weights, open("weights.pkl", 'wb'))
+#weights = pickle.load(open("weights.pkl", 'rb'))
 
 
 
