@@ -17,4 +17,10 @@
     * PCA can be activated by uncommenting line 60 if an additional dataset is being tested, to ensure the same number of features. 
     * Lines 74-77 and 95-99 can be commented/uncommented in order to compute train/test accuacy.
     * Lines 103-108 can be uncommented to compute a very rough indication of how well the classifier works, using 2 established predictions, each with approximately 77.5% accuracy on the test labels. 
+
+ * #### knn.py
+    * On run it will take the file 'test_set_x.csv' as the origin from the test data, assuming it contains a header with the labels 'Id', 'Text'. This can be modified in line 140 
+    * It will use as training set the data from 'cleaned_data.csv' which is created by running the file 'cleanData.py'
+    * Lines 150 and 151 can be uncommented to add a validation test by spliting the training set into training and validation data.
+    * Line 155 contains the parameters for the algorithm, X, Y, Test set, K, Test Indexes and name of the file where the output will be stored. 
   
