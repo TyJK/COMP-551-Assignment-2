@@ -15,6 +15,6 @@
  * #### neuralNetwork.py
     * On First Run: Will compute the weights of the text of 'test_set_x.csv' in order to output a list of predictions and save them to a csv file. 
     * PCA can be activated by uncommenting line 60 if an additional dataset is being tested, to ensure the same number of features. 
-    * Lines 74-77 and 95-99 can be swapped in order to compute train/test accuacy.
+    * Lines 74-77 and 95-99 can be commented/uncommented in order to compute train/test accuacy.
     * Lines 103-108 can be uncommented to compute a very rough indication of how well the classifier works, using 2 established predictions, each with approximately 77.5% accuracy on the test labels. 
   
