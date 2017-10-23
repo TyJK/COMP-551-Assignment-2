@@ -23,4 +23,11 @@
     * It will use as training set the data from 'cleaned_data.csv' which is created by running the file 'cleanData.py'
     * Lines 150 and 151 can be uncommented to add a validation test by spliting the training set into training and validation data.
     * Line 155 contains the parameters for the algorithm, X, Y, Test set, K, Test Indexes and name of the file where the output will be stored. 
+    
+ * #### adaboostTest.py
+    * First run will output validation set accuracy using sklearn adaboost algorithm customized to project 2 problem and output prediction on 'test_set_x.csv',
+    * save prediction result into file 'sk_adaboost.csv'.
+    * It will use as training set the data from 'cleaned_data.csv' which is created by running the file 'cleanData.py'
+    * To run the fully implemented adaboost algorithm, please first comment code at line 418, 419 and then uncomment the code from 423-445. 
+    * Note: this algorithm does not give promising prediction result
   
