@@ -1,5 +1,5 @@
 # COMP-551-Assignment-2
-#### The location of all cleaned training data and code for the second assignment in COMP 551 for Jorge Diaz, Tyler Kolody, Helen You and 
+#### The location of all data, weights and code for the second assignment in COMP 551 for Jorge Diaz, Tyler Kolody and Helen You
 
 ### Running each file: 
 
